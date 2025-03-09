@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/'https://github.com/Vladosssss92/test_to_do/static/js/main.c7f687df.js",
-    "static/media/check.svg": "/'https://github.com/Vladosssss92/test_to_do/static/media/check.b5c9bb86163f7628de072dbac5479e3d.svg",
-    "index.html": "/'https://github.com/Vladosssss92/test_to_do/index.html",
-    "main.c7f687df.js.map": "/'https://github.com/Vladosssss92/test_to_do/static/js/main.c7f687df.js.map"
+    "main.js": "/Vladosssss92/test_to_do/static/js/main.82ff8ad6.js",
+    "static/media/check.svg": "/Vladosssss92/test_to_do/static/media/check.b5c9bb86163f7628de072dbac5479e3d.svg",
+    "index.html": "/Vladosssss92/test_to_do/index.html",
+    "main.82ff8ad6.js.map": "/Vladosssss92/test_to_do/static/js/main.82ff8ad6.js.map"
   },
   "entrypoints": [
-    "static/js/main.c7f687df.js"
+    "static/js/main.82ff8ad6.js"
   ]
 }
