@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/test_to_do/static/js/main.90181865.js",
+    "main.js": "/test_to_do/static/js/main.448cb300.js",
     "static/media/check.svg": "/test_to_do/static/media/check.b5c9bb86163f7628de072dbac5479e3d.svg",
     "index.html": "/test_to_do/index.html",
-    "main.90181865.js.map": "/test_to_do/static/js/main.90181865.js.map"
+    "main.448cb300.js.map": "/test_to_do/static/js/main.448cb300.js.map"
   },
   "entrypoints": [
-    "static/js/main.90181865.js"
+    "static/js/main.448cb300.js"
   ]
 }
