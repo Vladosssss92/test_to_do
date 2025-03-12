@@ -17,7 +17,7 @@ export const InputNewTask: FC = () => {
     handleTaskInputChangeDescription,
     addTask,
     handleTaskKeyDown
-  } = useAddNewTask(taskPriority)
+  } = useAddNewTask({taskPriority})
 
   return (
     <>

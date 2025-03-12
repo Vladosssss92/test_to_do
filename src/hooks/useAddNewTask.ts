@@ -5,7 +5,7 @@ import { ITask, Priority } from "../types/taskTypes";
 import { addNewTask } from "../store/slices/taskSlice";
 
 
-export const useAddNewTask = (priority?: Priority) => {
+export const useAddNewTask = ({taskPriority = 'medium', autoAddTask} : {taskPriority?: Priority, autoAddTask?: boolean}) => {
     const [taskName, setTaskName] = useState('');
     const [taskDescription, setTaskDescription] = useState('');
     const dispatch = useAppDispatch()
@@ -23,7 +23,7 @@ export const useAddNewTask = (priority?: Priority) => {
         taskDescription: taskDescription,
         completed: false,
         editTask: false,
-        priority: priority ? priority : 'medium',
+        priority: taskPriority,
         date: new Date().toISOString(),
     }
 
@@ -39,7 +39,7 @@ export const useAddNewTask = (priority?: Priority) => {
     }
 
     const addMockTask = (mockTask: ITask) => {
-        dispatch(addNewTask(mockTask));
+        if (autoAddTask) dispatch(addNewTask(mockTask));
     }
 
     const handleTaskKeyDown = (e: React.KeyboardEvent<HTMLElement>) => {
