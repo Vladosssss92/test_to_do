@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/test_to_do/static/js/main.7032d8df.js",
+    "main.js": "/test_to_do/static/js/main.8fb4116b.js",
     "static/media/check.svg": "/test_to_do/static/media/check.b5c9bb86163f7628de072dbac5479e3d.svg",
     "index.html": "/test_to_do/index.html",
-    "main.7032d8df.js.map": "/test_to_do/static/js/main.7032d8df.js.map"
+    "main.8fb4116b.js.map": "/test_to_do/static/js/main.8fb4116b.js.map"
   },
   "entrypoints": [
-    "static/js/main.7032d8df.js"
+    "static/js/main.8fb4116b.js"
   ]
 }
